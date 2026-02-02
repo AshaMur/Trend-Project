@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Clone') {
       steps {
-        git 'https://github.com/Vennilavan12/trend.git'
+        git 'https://github.com/AshaMur/trend.git'
       }
     }
     stage('Build Docker') {
